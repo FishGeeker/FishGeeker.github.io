@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "Use Github Action",
+    "url": "/posts/add-ci-cd-workflow/",
+    "categories": "Blogging",
+    "tags": "writing",
+    "date": "2021-04-25 00:11:00 +0200",
+    
+
+
+
+
+
+    "snippet": "I used Github Action to build and deploy my blogs automatically."
+  },
+  
+  {
     "title": "My First Blog",
     "url": "/posts/my-first-blog/",
     "categories": "Blogging",
