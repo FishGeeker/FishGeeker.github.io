@@ -3,8 +3,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://fishgeeker.github.io</id>
   <title>FishGeeker</title>
-  <subtitle>I live and work in Germany and share here simply something around me.</subtitle>
-  <updated>2021-05-01T12:33:06+02:00</updated>
+  <subtitle>I live and work in Germany  and share here simply something around me.</subtitle>
+  <updated>2021-05-01T13:44:49+02:00</updated>
   <author>
     <name>FishGeeker</name>
     <uri>https://fishgeeker.github.io</uri>
@@ -117,14 +117,13 @@
 
 
 
-      In Chirpy, the image files of Favicons are placed in assets/img/favicons/
-. You may need to replace them with your own. So let’s see how to customize these Favicons.
+      In Chirpy, the image files of Favicons are placed in assets/img/favicons/. You may need to replace them with your own. So let’s see how to customize these Favicons.
 
 With a square image (PNG, JPG or GIF) in hand, open the site Favicon &amp;amp; App Icon Generator and upload your original image.
 
 
 
-Click button Create Favicon and wait a moment for the website to generate the icons of various sizes ...
+Click button Create Favicon and wait a moment for the website to generate the icons of various sizes a...
     </summary>
   
 
@@ -162,16 +161,14 @@ Click button Create Favicon and wait a moment for the website to generate the ic
 
       Installation
 
-Fork Chirpy on GitHub, rename the repository to USERNAME.github.io
- (where USERNAME
- is your GitHub username), and then open terminal and clone the fork to local by:
+Fork Chirpy on GitHub, rename the repository to USERNAME.github.io (where USERNAME is your GitHub username), and then open terminal and clone the fork to local by:
 
 $ git clone https://github.com/USERNAME/USERNAME.github.io.git -b master --single-branch
 
 
 Setting up the local envrionment
 
-If you would like to run or build the project on your local machine, please follow the Jeky...
+If you would like to run or build the project on your local machine, please follow the Jekyll...
     </summary>
   
 
@@ -209,12 +206,7 @@ If you would like to run or build the project on your local machine, please foll
 
       Naming and Path
 
-Create a new file named YYYY-MM-DD-TITLE.EXTENSION
- and put it in the _posts/
- of the root directory. Please note that the EXTENSION
- must be one of md
- and markdown
-.
+Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts/ of the root directory. Please note that the EXTENSION must be one of md and markdown.
 
 Front Matter
 
@@ -224,7 +216,7 @@ Basically, you need to fill the Front Matter as below at the top of the post:
 title: TITLE
 date: YYYY-MM-DD HH:MM:SS +/-TTTT
 categories: [TOP_CATEGORIE, SUB_CATEGORIE]
-tags: [TAG]     # TAG na...
+tags: [TAG]     # TAG names s...
     </summary>
   
 
