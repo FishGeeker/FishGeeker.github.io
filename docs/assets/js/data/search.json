@@ -31,6 +31,21 @@
   },
   
   {
+    "title": "Enable Google Page Views",
+    "url": "/posts/enable-google-pv/",
+    "categories": "Blogging, Tutorial",
+    "tags": "google analytics, pageviews",
+    "date": "2021-01-04 00:32:00 +0100",
+    
+
+
+
+
+
+    "snippet": "This post is to enable Page Views on the Chirpy theme based blog that you just built. This requires technical knowledge and it’s recommended to keep the google_analytics.pv.* empty unless you have a good reason. If your website has low traffic, the page views count would discourage you to write m..."
+  },
+  
+  {
     "title": "Customize the Favicon",
     "url": "/posts/customize-the-favicon/",
     "categories": "Blogging, Tutorial",
