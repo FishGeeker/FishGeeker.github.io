@@ -189,7 +189,7 @@
       <a href="/">FishGeeker</a>
     </div>
 
-    <div class="site-subtitle font-italic">留德十年</div>
+    <div class="site-subtitle font-italic">业精于勤荒于嬉，行成于思毁于随。</div>
 
   </div><!-- .profile-wrapper -->
 
@@ -576,7 +576,7 @@
 
 
 <!-- return element -->
-<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="674 words">3 min</span>
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="676 words">3 min</span>
 
 
           <!-- page views -->
@@ -783,7 +783,9 @@
 
 <h2 id="inline-code">Inline code</h2>
 
-<p>This is an example of <code class="language-plaintext highlighter-rouge">Inline Code</code>.</p>
+<p>This is an example of <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Inline Code
+</pre></td></tr></tbody></table></code>.</p>
 
 <h2 id="code-block">Code block</h2>
 
@@ -1266,11 +1268,19 @@ PYENV_SHELL=bash
 
                 Naming and Path
 
-Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts/ of the root directory. Please note that the EXTENSION must be one of md and markdown.
+Create a new file named 1
+YYYY-MM-DD-TITLE.EXTENSION
+ and put it in the 1
+_posts/
+ of the root directory. Please note that the 1
+EXTENSION
+ must be one of 1
+md
+ and 1
+markdown
+.
 
-Front Matter
-
-Ba...
+F...
               </p>
             </div>
           </div>
@@ -1314,10 +1324,14 @@ Ba...
 
                 Installation
 
-Fork Chirpy on GitHub, rename the repository to USERNAME.github.io (where USERNAME is your GitHub username), and then open terminal and clone the fork to local by:
+Fork Chirpy on GitHub, rename the repository to 1
+USERNAME.github.io
+ (where 1
+USERNAME
+ is your GitHub username), and then open terminal and clone the fork to local by:
 
 1
-$ git clone http...
+$ git clon...
               </p>
             </div>
           </div>
@@ -1359,9 +1373,11 @@ $ git clone http...
 
 
 
-                In Chirpy, the image files of Favicons are placed in assets/img/favicons/. You may need to replace them with your own. So let’s see how to customize these Favicons.
+                In Chirpy, the image files of Favicons are placed in 1
+assets/img/favicons/
+. You may need to replace them with your own. So let’s see how to customize these Favicons.
 
-With a square image (PNG, JPG o...
+With a square image (PNG, JP...
               </p>
             </div>
           </div>
@@ -1397,6 +1413,35 @@ With a square image (PNG, JPG o...
 
 </div>
 
+    
+      <!--
+  The Disqus lazy loading.
+  Powered by: https://osvaldas.info/lazy-loading-disqus-comments
+  v2.0
+  https://github.com/cotes2020/jekyll-theme-chirpy
+  © 2019 Cotes Chung
+  MIT License
+-->
+
+<div id="disqus" class="pt-2 pb-2">
+  <p class="font-italic text-center text-muted small">
+    Comments powered by <a href="https://disqus.com/">Disqus</a>.
+  </p>
+</div>
+
+<script src="/assets/js/lib/jquery.disqusloader.min.js"></script>
+<script>
+  var options = {
+    scriptUrl: '//.disqus.com/embed.js',
+
+    disqusConfig: function() {
+      this.page.url = 'https://fishgeeker.github.io/posts/text-and-typography/';
+      this.page.identifier = '/posts/text-and-typography/';
+    }
+  };
+
+  $.disqusLoader('#disqus', options);
+</script>
     
 
     </div> <!-- #post-extend-wrapper -->
