@@ -4,7 +4,7 @@
   <id>https://fishgeeker.github.io/</id>
   <title>FishGeeker</title>
   <subtitle>I live and work in Germany  and share here simply something around me.</subtitle>
-  <updated>2021-05-02T11:33:42+02:00</updated>
+  <updated>2021-05-02T11:47:35+02:00</updated>
   <author>
     <name>FishGeeker</name>
     <uri>https://fishgeeker.github.io/</uri>
@@ -24,7 +24,7 @@
     <link href="https://fishgeeker.github.io/posts/add-ci-cd-workflow/" rel="alternate" type="text/html" title="Use Github Action" />
     <published>2021-04-25T00:11:00+02:00</published>
   
-    <updated>2021-04-24T23:13:39+02:00</updated>
+    <updated>2021-05-02T11:47:08+02:00</updated>
   
     <id>https://fishgeeker.github.io/posts/add-ci-cd-workflow/</id>
     <content src="https://fishgeeker.github.io/posts/add-ci-cd-workflow/" />
@@ -34,7 +34,9 @@
 
   
     
-    <category term="Blogging" />
+    <category term="DevOps" />
+    
+    <category term="CI/CD" />
     
   
 
@@ -59,7 +61,7 @@
     <link href="https://fishgeeker.github.io/posts/my-first-blog/" rel="alternate" type="text/html" title="My First Blog" />
     <published>2021-01-31T15:36:00+01:00</published>
   
-    <updated>2021-01-31T15:36:00+01:00</updated>
+    <updated>2021-05-02T11:47:08+02:00</updated>
   
     <id>https://fishgeeker.github.io/posts/my-first-blog/</id>
     <content src="https://fishgeeker.github.io/posts/my-first-blog/" />
@@ -70,6 +72,8 @@
   
     
     <category term="Blogging" />
+    
+    <category term="Howto" />
     
   
 
@@ -83,133 +87,6 @@
 
       This is my first blog.
 
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Enable Google Page Views</title>
-    <link href="https://fishgeeker.github.io/posts/enable-google-pv/" rel="alternate" type="text/html" title="Enable Google Page Views" />
-    <published>2021-01-04T00:32:00+01:00</published>
-  
-    <updated>2021-01-04T00:32:00+01:00</updated>
-  
-    <id>https://fishgeeker.github.io/posts/enable-google-pv/</id>
-    <content src="https://fishgeeker.github.io/posts/enable-google-pv/" />
-    <author>
-      <name>Dinesh Prasanth Moluguwan Krishnamoorthy</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This post is to enable Page Views on the Chirpy theme based blog that you just built. This requires technical knowledge and it’s recommended to keep the google_analytics.pv.* empty unless you have a good reason. If your website has low traffic, the page views count would discourage you to write more blogs. With that said, let’s start with the setup.
-
-Set up Google Analytics
-
-Create GA account a...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Customize the Favicon</title>
-    <link href="https://fishgeeker.github.io/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
-    <published>2019-08-10T18:34:00+02:00</published>
-  
-    <updated>2019-08-10T18:34:00+02:00</updated>
-  
-    <id>https://fishgeeker.github.io/posts/customize-the-favicon/</id>
-    <content src="https://fishgeeker.github.io/posts/customize-the-favicon/" />
-    <author>
-      <name>Cotes Chung</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      In Chirpy, the image files of Favicons are placed in assets/img/favicons/. You may need to replace them with your own. So let’s see how to customize these Favicons.
-
-With a square image (PNG, JPG or GIF) in hand, open the site Favicon &amp;amp; App Icon Generator and upload your original image.
-
-
-
-Click button Create Favicon and wait a moment for the website to generate the icons of various sizes a...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Getting Started</title>
-    <link href="https://fishgeeker.github.io/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
-    <published>2019-08-09T14:55:00+02:00</published>
-  
-    <updated>2019-08-09T14:55:00+02:00</updated>
-  
-    <id>https://fishgeeker.github.io/posts/getting-started/</id>
-    <content src="https://fishgeeker.github.io/posts/getting-started/" />
-    <author>
-      <name>Cotes Chung</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Installation
-
-Fork Chirpy on GitHub, rename the repository to USERNAME.github.io (where USERNAME is your GitHub username), and then open terminal and clone the fork to local by:
-
-$ git clone https://github.com/USERNAME/USERNAME.github.io.git -b master --single-branch
-
-
-Setting up the local envrionment
-
-If you would like to run or build the project on your local machine, please follow the Jekyll...
     </summary>
   
 
