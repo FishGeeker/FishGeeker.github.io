@@ -4,7 +4,7 @@
   <id>https://fishgeeker.github.io/</id>
   <title>FishGeeker</title>
   <subtitle>I live and work in Germany  and share here simply something around me.</subtitle>
-  <updated>2021-05-02T11:47:35+02:00</updated>
+  <updated>2021-05-02T12:16:16+02:00</updated>
   <author>
     <name>FishGeeker</name>
     <uri>https://fishgeeker.github.io/</uri>
@@ -49,43 +49,6 @@
 
 
       I used Github Action to build and deploy my blogs automatically.
-
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>My First Blog</title>
-    <link href="https://fishgeeker.github.io/posts/my-first-blog/" rel="alternate" type="text/html" title="My First Blog" />
-    <published>2021-01-31T15:36:00+01:00</published>
-  
-    <updated>2021-05-02T11:47:08+02:00</updated>
-  
-    <id>https://fishgeeker.github.io/posts/my-first-blog/</id>
-    <content src="https://fishgeeker.github.io/posts/my-first-blog/" />
-    <author>
-      <name>FishGeeker</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Howto" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This is my first blog.
 
     </summary>
   

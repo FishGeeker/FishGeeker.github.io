@@ -733,11 +733,6 @@
         
         
         
-        <li><a href="/posts/my-first-blog/">My First Blog</a></li>
-      
-        
-        
-        
         <li><a href="/posts/add-ci-cd-workflow/">Use Github Action</a></li>
       
 
@@ -771,22 +766,6 @@
         
         
 
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
 
 
   
@@ -797,9 +776,6 @@
       
         
         <a class="post-tag" href="/tags/github-actions/">github actions</a>
-      
-        
-        <a class="post-tag" href="/tags/writing/">writing</a>
       
 
       </div>
@@ -842,19 +818,6 @@
 
   
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
 
 
 
@@ -870,76 +833,10 @@
     
     
   
-    
-    
-      
-      
-        
-        
-        
-      
-    
-  
 
 
 
 
-
-  <div id="related-posts" class="mt-5 mb-2 mb-sm-4">
-    <h3 class="pt-2 mt-1 mb-4 ml-1"
-      data-toc-skip>Further Reading</h3>
-    <div class="card-deck mb-4">
-    
-      
-      
-      <div class="card">
-        <a href="/posts/my-first-blog/">
-          <div class="card-body">
-            <!--
-  Date format snippet
-  See: /assets/js/_utils/timeage.js
--->
-
-
-
-
-
-<span class="timeago small"
-  
-
-  
-   >
-
-  
-  
-
-  
-    Jan 31
-  
-
-  <i class="unloaded">2021-01-31T15:36:00+01:00</i>
-
-</span>
-
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>My First Blog</h3>
-            <div class="text-muted small">
-              <p>
-                
-
-
-
-
-
-                This is my first blog.
-
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    
-    </div> <!-- .card-deck -->
-  </div> <!-- #related-posts -->
 
 
 
@@ -949,10 +846,10 @@
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <a href="/posts/my-first-blog/" class="btn btn-outline-primary"
+  <span class="btn btn-outline-primary disabled"
     prompt="Older">
-    <p>My First Blog</p>
-  </a>
+    <p>-</p>
+  </span>
   
 
   
@@ -964,6 +861,33 @@
 
 </div>
 
+
+    
+      <!--
+  The Disqus lazy loading.
+  Powered by: <https://github.com/osvaldasvalutis/disqusLoader.js>
+-->
+
+<div id="disqus" class="pt-2 pb-2">
+  <p class="text-center text-muted small pb-5">
+    Comments powered by <a href="https://disqus.com/">Disqus</a>.
+  </p>
+</div>
+
+<script src="/assets/js/lib/jquery.disqusloader.min.js"></script>
+<script>
+  const options = {
+    scriptUrl: '//FishGeeker.disqus.com/embed.js',
+
+    disqusConfig: function() {
+      this.page.title = 'Use Github Action';
+      this.page.url = 'https://fishgeeker.github.io/posts/add-ci-cd-workflow/';
+      this.page.identifier = '/posts/add-ci-cd-workflow/';
+    }
+  };
+
+  $.disqusLoader('#disqus', options);
+</script>
 
     
 
@@ -1042,30 +966,11 @@
         
         
 
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
 
 
       
         
         <a class="post-tag" href="/tags/github-actions/">github actions</a>
-      
-        
-        <a class="post-tag" href="/tags/writing/">writing</a>
       
 
     </div>
