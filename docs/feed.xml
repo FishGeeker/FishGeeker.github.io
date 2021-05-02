@@ -4,7 +4,7 @@
   <id>https://fishgeeker.github.io/</id>
   <title>FishGeeker</title>
   <subtitle>I live and work in Germany  and share here simply something around me.</subtitle>
-  <updated>2021-05-02T12:16:16+02:00</updated>
+  <updated>2021-05-02T12:55:03+02:00</updated>
   <author>
     <name>FishGeeker</name>
     <uri>https://fishgeeker.github.io/</uri>
@@ -17,6 +17,43 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Use Github Action</title>
+    <link href="https://fishgeeker.github.io/posts/english/" rel="alternate" type="text/html" title="Use Github Action" />
+    <published>2021-04-25T00:11:00+02:00</published>
+  
+    <updated>2021-04-25T00:11:00+02:00</updated>
+  
+    <id>https://fishgeeker.github.io/posts/english/</id>
+    <content src="https://fishgeeker.github.io/posts/english/" />
+    <author>
+      <name>FishGeeker</name>
+    </author>
+
+  
+    
+    <category term="Notes" />
+    
+    <category term="English" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      I used Github Action to build and deploy my blogs automatically.
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
